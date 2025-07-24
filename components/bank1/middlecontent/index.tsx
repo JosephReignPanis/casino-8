@@ -66,19 +66,9 @@ export default function MiddleContent() {
         "이벤이벤 제목에 오신것을 환영합니다.이벤이벤 제목에 오신것을 환영합니다.이벤이벤 제목에 오신것을 환영합니다.",
       date: "2024-00-00",
     },
-    {
-      title:
-        "이벤이벤 제목에 오신것을 환영합니다.이벤이벤 제목에 오신것을 환영합니다.이벤이벤 제목에 오신것을 환영합니다.",
-      date: "2024-00-00",
-    },
   ];
 
   const events = [
-    {
-      title:
-        "이벤이벤 제목에 오신것을 환영합니다.이벤이벤 제목에 오신것을 환영합니다.이벤이벤 제목에 오신것을 환영합니다.",
-      date: "2024-00-00",
-    },
     {
       title:
         "이벤이벤 제목에 오신것을 환영합니다.이벤이벤 제목에 오신것을 환영합니다.이벤이벤 제목에 오신것을 환영합니다.",
@@ -220,6 +210,108 @@ export default function MiddleContent() {
             <CardList data={events} badgeColor="bg-[#b8872b] text-black" />
           </div>
         </div>{" "}
+        <div className="flex flex-row items-center gap-2 w-full py-2">
+          <h3 className="text-2xl font-black">Namdaemun Sports</h3>
+          <hr className="hr flex-1" />
+        </div>
+        <div className="grid grid-cols-5 my-4 gap-2 w-full">
+          <Link href={"/categories/minigame"}>
+            <Image
+              src={"/mobilebanner/main_game1.jpg"}
+              width={120}
+              height={100}
+              alt="placeholder"
+              className="w-full"
+            />
+          </Link>{" "}
+          <Link href={"/categories/sports"}>
+            <Image
+              src={"/mobilebanner/main_game2.jpg"}
+              width={120}
+              height={100}
+              alt="placeholder"
+              className="w-full"
+            />{" "}
+          </Link>{" "}
+          <Link href={"/categories/sportsspecial"}>
+            <Image
+              src={"/mobilebanner/main_game3.jpg"}
+              width={120}
+              height={100}
+              alt="placeholder"
+              className="w-full"
+            />
+          </Link>{" "}
+          <Link href={"/categories/inplay"}>
+            <Image
+              src={"/mobilebanner/main_game4.jpg"}
+              width={120}
+              height={100}
+              alt="placeholder"
+              className="w-full"
+            />
+          </Link>{" "}
+          <Link href={"/categories/livecasino"}>
+            <Image
+              src={"/mobilebanner/main_game5.jpg"}
+              width={120}
+              height={100}
+              alt="placeholder"
+              className="w-full"
+            />
+          </Link>
+        </div>{" "}
+        <div className="flex flex-row items-center gap-2 w-full py-2">
+          <h3 className="text-2xl font-black">Namdaemun Game</h3>
+          <hr className="hr flex-1" />
+        </div>
+        <div className="grid grid-cols-5 my-4 gap-2 w-full">
+          <Link href={"/categories/minigame"}>
+            <Image
+              src={"/mobilebanner/main_game6.jpg"}
+              width={120}
+              height={100}
+              alt="placeholder"
+              className="w-full"
+            />
+          </Link>{" "}
+          <Link href={"/categories/sports"}>
+            <Image
+              src={"/mobilebanner/main_game7.jpg"}
+              width={120}
+              height={100}
+              alt="placeholder"
+              className="w-full"
+            />{" "}
+          </Link>{" "}
+          <Link href={"/categories/sportsspecial"}>
+            <Image
+              src={"/mobilebanner/main_game8.jpg"}
+              width={120}
+              height={100}
+              alt="placeholder"
+              className="w-full"
+            />
+          </Link>{" "}
+          <Link href={"/categories/inplay"}>
+            <Image
+              src={"/mobilebanner/main_game9.jpg"}
+              width={120}
+              height={100}
+              alt="placeholder"
+              className="w-full"
+            />
+          </Link>{" "}
+          <Link href={"/categories/livecasino"}>
+            <Image
+              src={"/mobilebanner/main_game10.jpg"}
+              width={120}
+              height={100}
+              alt="placeholder"
+              className="w-full"
+            />
+          </Link>
+        </div>
       </div>
     </>
   );

@@ -2,7 +2,7 @@ export const SECONDARYBUTTONS = [
   { label: "스포츠 (해외형)", path: "/categories/sports" },
   { label: "스포츠 (국내형)", path: "/categories/sportscross" },
   { label: "스페셜", path: "/categories/sportsspecial" },
-  { label: "인플레이", path: "/inplay" },
+  { label: "인플레이", path: "/categories/inplay" },
   { label: "실시간", path: "/categories/sports-live-kor" },
   { label: "미니게임", path: "/categories/minigame" },
   { label: "벳365", path: "/categories/bet365" },

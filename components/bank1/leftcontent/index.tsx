@@ -168,7 +168,6 @@ export default function LeftContent() {
             </button>{" "}
           </div>
         </div>
-        <Tabs headerlist={headerlist} />{" "}
         <div className="flex flex-col my-2">
           {leagues.map((leaguesinfo, index) => (
             <Link

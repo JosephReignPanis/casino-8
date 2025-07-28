@@ -107,7 +107,7 @@ export default function Navbar() {
             >
               로그아웃
             </Link>{" "}
-            <Link href="/register" className="nav-btn-logout">
+            <Link href="/register" className="nav-btn-logout p-2">
               로그아웃
             </Link>
           </div>

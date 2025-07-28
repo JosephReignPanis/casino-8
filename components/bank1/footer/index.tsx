@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-zinc-800 text-zinc-600 font-semibold flex flex-col justify-center gap-2 items-center p-8 bg-test ">
+      <footer className="bg-zinc-900 text-zinc-600 font-semibold flex flex-col justify-center gap-2 items-center p-8 bg-test ">
         <Image
           src={"/f_partners.png"}
           width={1020}

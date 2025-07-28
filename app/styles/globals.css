@@ -7,7 +7,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: var(--foreground);
+  color: white;
   font-family: "Do Hyeon", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -23,11 +23,12 @@ td:hover {
   text-shadow: 0rem 0rem 1rem #000000;
 } */
 .navgradient {
-  background: var(--primary-bg-gradient);
+  background: linear-gradient(to top, #261802, #ba892d);
 }
 .sidebar-bg {
-  background: var(--sb-gradient);
+  background: linear-gradient(to top, #181200, #2b1d02, #181200);
 }
+
 .header {
   border-radius: 0.5rem;
   font-size: 1.125rem;
@@ -35,8 +36,9 @@ td:hover {
   font-weight: 700;
   padding: 0.5rem;
   text-shadow: 0rem 0rem 1rem #000000;
-  background: var(--primary-header-gradient);
+  background: linear-gradient(to right, #926814, #caa645, #926814);
 }
+
 .btn-golden-gradient {
   padding: 0.5rem;
   border-radius: 0.375rem;
@@ -44,7 +46,7 @@ td:hover {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 800;
-  background: var(--secondary-bg-gradient);
+  background: linear-gradient(to top, #663e09, #caa645);
   display: flex;
   flex-direction: row;
   gap: 0.75rem;
@@ -52,68 +54,84 @@ td:hover {
 
 .btn-gold-nav-gradient {
   color: #ffffff;
-  background: var(--secondary-bg-gradient);
+  background: linear-gradient(to top, #663e09, #caa645);
 }
 
 .btn-gold-bg {
-  background: var(--secondary-bg-gradient);
+  background: linear-gradient(to top, #663e09, #caa645);
 }
 
 .btn-gold-secondary-gradient {
   color: white;
   text-shadow: 0rem 0rem 1rem #0a0a0a;
   border-radius: 0.3rem;
-  background: var(--nav-btn-gradient);
+  background: linear-gradient(to right, #825117, #c29d47, #825117);
 }
+
 .btn-gold-secondary-gradient:hover {
   box-shadow: 0rem 0rem 0.5rem #d5b150;
-  background: var(--nav-btn-gradient);
+  background: linear-gradient(to right, #825117, #c29d47, #825117);
 }
+
 .btn-outline-nav-gradient {
   padding: 0.5rem;
   color: #ffffff;
-  background: var(--silver-btn-gradient);
+  background: linear-gradient(to top, #323232, #565656);
   border-radius: 0.3rem;
 }
+
 .btn-outline-nav-gradient:hover {
   padding: 0.5rem;
   color: #ffffff;
-  background: var(--silver-btn-gradient-hover);
+  background: linear-gradient(to top, #434343, #727272);
   border-radius: 0.3rem;
 }
+
 .btn-golden-gradient:hover,
 .btn-gold-nav-gradient:hover {
   text-shadow: 0rem 0rem 0.3rem;
-  background: var(--secondary-bg-gradient-hover);
+  background: linear-gradient(to top, #91620a, #c7a64d);
 }
 
 .btn-silver-gradient {
-  background: var(--silver-btn-gradient);
+  background: linear-gradient(to top, #323232, #565656);
 }
 
 .btn-silver-gradient:hover {
   text-shadow: 0rem 0rem 0.3rem;
-  background: var(--silver-btn-gradient-hover);
+  background: linear-gradient(to top, #434343, #727272);
 }
 
 .hr-gradient {
   height: 4px;
   border: none;
-  background: var(--primary-hr-gradient);
+  background: linear-gradient(
+    to right,
+    #cdb575,
+    #452113,
+    #a6702a,
+    #a36c2b,
+    #f4f0e4,
+    #9f6c2a,
+    #a9752a,
+    #d5be7b
+  );
 }
+
 .hr {
   height: 2px;
   width: 100%;
   border: none;
-  background: var(--secondary-bg-gradient);
+  background: linear-gradient(to top, #663e09, #caa645);
   display: block;
 }
 
 .btn-gold-gradient {
   font-weight: 800;
   color: #000000;
-  background: var(--primary-btn-gradient);
+  background: linear-gradient(to right, #825117, #fedd8e, #825117);
 }
+
 .btn-goldsb-gradient {
   padding: 0.3rem;
   flex: 1 1 0%;
@@ -121,35 +139,37 @@ td:hover {
   font-weight: 500;
   font-size: smaller;
   color: #000000;
-  background: var(--primary-btn-gradient);
+  background: linear-gradient(to right, #825117, #fedd8e, #825117);
 }
+
 .nav-btn-primary {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  background-image: var(--text-primary);
+  background-image: linear-gradient(to top, #be8e12, #fffbeb);
   mix-blend-mode: normal;
 }
 
 .nav-btn-primary:hover {
-  background-image: var(--text-primary-hover);
+  background-image: linear-gradient(to top, #ffdd00, #fffbeb);
   text-shadow: 0rem 0rem 1rem;
   mix-blend-mode: normal;
 }
+
 .nav-btn-secondary {
   color: white;
   text-shadow: 0rem 0rem 0.5rem #000000;
   mix-blend-mode: normal;
 }
+
 .nav-btn-secondary:hover {
-  color: var(--text-primary);
+  color: linear-gradient(to top, #be8e12, #fffbeb);
   text-shadow: 0rem 0rem 0.3rem;
   mix-blend-mode: color-dodge;
 }
 
 .nav-btn-logout {
   border-radius: 0.5rem;
-
   background-image: linear-gradient(to top, #232323, #2e2e2e);
 }
 
@@ -168,7 +188,7 @@ td:hover {
 
 .btn-gold-outline:hover {
   color: #000000;
-  background: var(--primary-btn-gradient);
+  background: linear-gradient(to right, #825117, #fedd8e, #825117);
   box-shadow: 0rem 0rem 0.3rem #d7b922;
 }
 
@@ -188,7 +208,7 @@ td:hover {
   color: white;
   text-shadow: 0rem 0rem 0.5rem;
   mix-blend-mode: normal;
-  background: var(--secondary-bg-gradient-hover);
+  background: linear-gradient(to top, #91620a, #c7a64d);
   box-shadow: 0rem 0rem 0.5rem #ffc402;
 }
 

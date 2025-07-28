@@ -105,22 +105,22 @@ export default function RightContent() {
           </div>
           <div className="grid grid-cols-3 gap-1">
             <button className="btn-silver-gradient p-2 rounded-sm flex-1">
-              10,000
+              1,000
             </button>
             <button className="btn-silver-gradient p-2 rounded-sm  flex-1">
               10,000
             </button>
             <button className="btn-silver-gradient p-2 rounded-sm  flex-1">
-              10,000
+              20,000
             </button>
             <button className="btn-silver-gradient p-2 rounded-sm flex-1">
-              10,000
+              50,000
             </button>
             <button className="btn-silver-gradient p-2 rounded-sm  flex-1">
-              10,000
+              100,000
             </button>
             <button className="btn-silver-gradient p-2 rounded-sm  flex-1">
-              10,000
+              1,000,000
             </button>
           </div>
           <button className="flex btn-golden-gradient rounded-sm  justify-center">

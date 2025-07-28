@@ -118,7 +118,7 @@ export default function LeftContent() {
       <div className="grid grid-cols-2 gap-1 pb-2">
         {primaryButtons.map(({ label, path, src }, index) => (
           <Link key={index} href={path} className="">
-            <button className="btn-gold-gradient p-2 flex flex-row items-center justify-center w-full h-full gap-2 border border-neutral-500/60 shadow-inner hover:[box-shadow:inset_0_0_8px_#f99e0b]">
+            <button className="btn-gold-gradient p-2 text-white flex flex-row items-center justify-center w-full h-full gap-2 border border-neutral-500/60 shadow-inner hover:[box-shadow:inset_0_0_8px_#f99e0b]">
               <Image src={src} width={40} height={40} alt="sd" />
               {label}
             </button>

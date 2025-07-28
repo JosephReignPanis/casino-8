@@ -1,16 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
 @import "tailwindcss";
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
 body {
   background-image: url("/background.jpg");
@@ -79,7 +68,7 @@ td:hover {
 .btn-gold-secondary-gradient:hover {
   box-shadow: 0rem 0rem 0.5rem #d5b150;
   background: var(--nav-btn-gradient);
-} 
+}
 .btn-outline-nav-gradient {
   padding: 0.5rem;
   color: #ffffff;
